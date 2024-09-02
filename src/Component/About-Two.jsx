@@ -26,8 +26,7 @@ const AboutTwo = () => {
         <h3> Download The Solutions</h3>
         <p>
           As soon as you make a payment, your order gets confirmed and is
-          instantly transferred to the content department. Our management
-          assignment writer ensures to churn out the best content and delivery
+          instantly transferred to the content department.  ensures to churn out the best content and delivery
           of error free management assignments online!
         </p>
       </div>
