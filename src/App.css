@@ -126,7 +126,6 @@ select {
 }
 
 .form-btn {
-  text-align: center;
   background-color: #93b874;
   width: 100%;
   border-radius: 5px;
@@ -134,6 +133,15 @@ select {
   font-weight: 400;
   color: white;
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-btn span{
+  /* background-color: #93b874; */
+  background-color: inherit;
+  padding-right: 10px;
+  font-size: 22px;
 }
 .form-btn:hover{
   background-color: #588c2e;
@@ -266,12 +274,15 @@ footer  button{
  background-color: #effedf;
 }
 
+
 .inner-rating{
   display: flex;
   justify-content: space-between;
   border-bottom: 3px solid #e73d2c;
 }
-
+.flag{
+  display: flex;
+}
 /* review style */
 .trustedby{
     padding: 0.8rem 1.2rem;

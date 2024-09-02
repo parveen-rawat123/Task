@@ -1,5 +1,14 @@
+import { useState } from "react";
+import { Menu, XMark } from "../utils/Icon";
+
 
 const Header = () => {
+  const [menuIcon, setmenuIcon] = useState(false)
+
+  if(window.innerWidth < 950){
+    setmenuIcon(true)
+  }
+
   return (
     <header>
       <div className="logo">
@@ -24,6 +33,7 @@ const Header = () => {
           <li><button className="order-now">ORDER NOW</button></li>
         </ul>
       </nav>
+      {menuIcon ? {Menu}: ''}
     </header>
   );
 }

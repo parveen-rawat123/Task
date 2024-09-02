@@ -1,3 +1,4 @@
+import { Telegram } from "../utils/Icon";
 
 
 const Form = () => {
@@ -24,7 +25,9 @@ const Form = () => {
             <input type="checkbox" name="" id=""/>
             <span className="agreement">I agree with the <span className="blue-color">Privacy Policy </span> and <span className="blue-color">Terms & Condition </span> </span>
             </div>
-        <button className="form-btn">
+        <button className="form-btn"> <span>
+          {Telegram}
+          </span>
            GET FREE QUOTE </button>
         </div>
     </div>
