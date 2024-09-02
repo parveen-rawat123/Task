@@ -195,7 +195,7 @@ select {
   text-align: center;
   width: 18rem;
   height: 22rem;
-  border: 1px solid gray;
+  border: 1px solid rgba(128, 128, 128, 0.509);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -212,7 +212,7 @@ select {
 }
 .card-item::before {
   content: "01";
-  border: 1px solid gray;
+  border: 1px solid rgba(128, 128, 128, 0.509);
   background-color: white;
   z-index: 2;
   height: 30px;
